@@ -1,0 +1,18 @@
+.my-box{
+    font-family: Verdana, sans-serif;
+    width: 700px;
+    margin: auto;
+    background-color: white;
+}
+.box2 {
+  display: inline-block;
+  width: 150px;
+  margin: 1em;
+}
+.my-answer{  
+    font-size: 50px;
+
+}
+#bg-white{
+    background-color: white;
+}

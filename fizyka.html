@@ -1,13 +1,43 @@
----
-layout: default
----
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-<div class="container">    
-    <h1>Fizyka blabalbalbbal
-    </h1>
-    <input type="input" id="input">
-    <button class="btn-default">Kliknij</button>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    <script src="script.js"></script>
+    
+   <div class="container" >
+    <div class="my-box" id="bg-white">   
+    <div class="col-sm-12">
+     <h2>Obliczanie PI metodą MonteCarlo</h2>
+    </div>       
+    <div class="col-sm-12">
+     <div class ="box2">   
+     <input type="input" id="input" placeholder="Ilość prób...">
+     </div>
+     <div class = "box2">
+     <button class="btn-default">Oblicz</button>
+     </div>
+     <div class="box2">
+     <p id="my-answer"></p>
+     </div>
+    </div> 
+    <div class="col-sm-12">
     <canvas id="myCanvas" width="500" height="500"
-        style="border:1px solid #c3c3c3;">
-</div>
-    <script src="script/monteCarlo.js"></script>
+        style="border:3px solid #c3c3c3;">
+    </div>  
+    </div>
+   </div>
+</body>    
+
+        
