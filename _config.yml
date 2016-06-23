@@ -9,7 +9,7 @@
 title: Pawel Lukasik
 email: kanonieer@o2.pl
 description: > # this means to ignore newlines until "baseurl:"
-Pawel Lukasik 2016
+Pawel Lukasik 2016 :
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: kanonieer
