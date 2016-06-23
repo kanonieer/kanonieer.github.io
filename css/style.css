@@ -1,3 +1,6 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 .my-box{
     font-family: Verdana, sans-serif;
     width: 700px;
@@ -13,6 +16,73 @@
     font-size: 50px;
 
 }
+body{
+    background-color: #66ffff;
+}
 #bg-white{
     background-color: white;
+}
+.my-container{
+    
+    border:9px solid white;
+    border-radius:5px;
+    width:520px;
+    margin: auto;
+    padding-top:20px;
+    padding-bottom:30px;
+    background-color:  #ff5050;
+}
+.my-h{
+    margin:auto;
+}
+figure{
+    max-width: 80%;
+    margin:auto;
+}
+.greetings{
+    display:none;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 80%;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: chocolate;    
+}
+.greetings1{
+    max-width:95%;
+}
+.greetings2{
+    max-width:25%;
+}
+.greetings3{
+    margin-bottom:30px;
+    max-width:50%;
+}
+img{
+    border-radius:5px;
+    max-width:100%;
+    margin:auto;
+ 
+}
+.card{
+    border: 10px solid transparent;
+    display:none;
+    width:540px;
+    height: 671px;
+    margin: auto;
+    margin-top: 40px;
+    -webkit-border-image: url(border.png) 20% round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 20% round; /* Opera 11-12.1 */
+    border-image: url(border.png) 20% round;
+}
+#borderimg1{
+       border: 10px solid transparent;
+    padding: 5px;
+    -webkit-border-image: url(border.png) 20% round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 20% round; /* Opera 11-12.1 */
+    border-image: url(border.png) 20% round;
+
 }
