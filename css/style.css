@@ -1,5 +1,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed:600);
+@import url(https://fonts.googleapis.com/css?family=Prata);
+@import url(https://fonts.googleapis.com/css?family=Vidaloka);
 
 .my-box{
     font-family: Verdana, sans-serif;
@@ -16,12 +19,286 @@
     font-size: 50px;
 
 }
-body{
+#card{
     background-color: #66ffff;
 }
 #bg-white{
     background-color: white;
 }
+.cook-jumbo{
+    color: #734d26;
+    background-color: #ffffb3;
+    font-family: 'Vidaloka', serif;
+    font-size: 200%;
+    height: 100vh;
+    width:100%;
+    text-align: center;   
+    padding-top:15%;
+    -webkit-box-shadow: 0 0 30px 0px white inset;
+    -moz-box-shadow: 0 0 30px 0px white inset;
+    box-shadow: 0 0 180px 0 white inset;
+}
+.cook2{
+    background-color: #ffff80;
+-webkit-box-shadow: inset 0px 0px 124px -12px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px 0px 124px -12px rgba(255,255,255,1);
+box-shadow: inset 0px 0px 124px -12px rgba(255,255,255,1);;
+}
+.cook-brown{
+    color: #ffffcc;
+    background-color: #734d26;
+    font-family: "Prata", serif;
+    height: 80vh;
+    width:100%;
+    text-align: center; 
+    margin-top:0px;  
+-webkit-box-shadow: inset 10px 67px 49px -46px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 10px 67px 49px -46px rgba(0,0,0,0.75);
+box-shadow: inset 10px 67px 49px -46px rgba(0,0,0,0.75);
+    
+}
+.cook-description{
+    float:right;
+    height:100%;
+    width:60%;
+    padding:10px;
+    padding-right:30px;
+    
+}
+.cook-description hr{
+    width:70%;
+    height:2px;
+    background-color: #ffffb3;
+    -webkit-box-shadow: inset 0px 0px 203px 2px rgba(115,77,38,1);
+    -moz-box-shadow: inset 0px 0px 203px 2px rgba(115,77,38,1);
+    box-shadow: inset 0px 0px 120px -23px rgba(115,77,38,1);
+    border:none;
+}
+.cook-brown img{
+    float:left;
+    height:100%; 
+
+}
+.cook-img{
+    background-image:url("1.jpg");
+    background-repeat: no-repeat;
+    background-color:#734d26;
+    float:left;
+    height:100%;
+    width:40%;
+    box-shadow: inset 10px 67px 49px -46px rgba(0,0,0,0.75),inset -190px 0px 120px -23px rgba(115,77,38,1);
+}
+.cook-brown h1{
+    padding-top:20px;
+    font-size: 400%;
+    
+}
+.cook-brown p{
+    font-size:160%;
+    text-align: justify;
+    padding:40px;
+}
+.glyphicon {
+    font-size: 50px;
+}
+a{
+    color:inherit;
+}
+.cook-front{
+    border-style: dotted;
+    border-width:8px;
+    border-color:#734d26;
+    max-width:60%;
+    margin: auto;
+}
+
+.cook-jumbo p{
+    padding-top:10px;
+    text-shadow: 1px 1px 1px #000000;
+}
+.cook-jumbo hr{
+    width:90%;
+    background-color:#734d26;
+    height: 2px;
+}
+.cook-jumbo h1{
+    font-size:500%;
+}
+.no-margin-padding{
+    margin:0px;
+    padding:0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.tv-container{
+    width:70%;
+    margin:auto;
+    margin-top:30px;
+    
+}
+.panel{
+    width:86%;
+    height:120px;
+    margin:auto;
+    margin-top: 430px;
+    margin-bottom: 10px;
+    background: transparent;
+        position:relative;
+    overflow:hidden;
+}
+
+.left-panel{
+    
+    border-radius:6px;
+    border: 3px solid white;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#004466));
+    background-image: -webkit-linear-gradient(top, white, #004466);
+    background-image: -moz-linear-gradient(top, white, #004466);
+    background-image: linear-gradient(to bottom, white, #004466);
+    -webkit-box-shadow: 0 0 6px 0px #b3b3b3 inset;
+    -moz-box-shadow: 0 0 6px 0px #b3b3b3 inset;
+    box-shadow: 0 0 6px 0px #b3b3b3 inset;
+    height:100%;
+    width:12%;
+    font-size:120%;
+    display: inline-block;
+    background-color: white;
+    position:absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left-main-panel{
+    height:100%;
+    width:10%;
+    display:inline-block;
+    color:#f2f2f2;
+    text-align:center;
+    text-shadow: 2px 2px 4px #000000;
+
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.right-main-panel{
+    height:100%;
+    width:90%;
+    
+    float:right;
+}
+.left-panel-text1{
+    
+    color:#00264d;
+    font-style: bold;
+    line-height: 100%;
+    word-spacing: 3px;
+    text-align: center;
+    padding:18px 0px 2px 0px;
+    
+}
+.left-panel-text2{
+    color:white;
+    font-style: bold;
+    line-height: 100%;
+    word-spacing: 3px;
+    text-align:center;
+     padding:6px 2px 0px 2px;
+}
+hr{
+    width:90%;
+    color:white;
+    background-color: white;
+    height: 0.3px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.logo{
+    height:50%;
+    width:100%;
+    background-color: white;
+    -webkit-box-shadow: 0 0 8px 0px #000 inset;
+    -moz-box-shadow: 0 0 8px 0px #000 inset;
+    box-shadow: 0 0 8px 0px #000 inset;
+}
+#logo{
+    padding:4px;
+    max-height:100%; 
+    min-width:100%;
+    mix-blend-mode: multiply;
+
+}
+.time{
+    padding-top: 4px;
+    background-color: #001a33;
+        height:25%;
+    width:100%;
+}
+.region{
+        padding-top: 4px;
+    background-color: #0066ff;
+        height:25%;
+    width:100%;
+}
+.main-news{
+    background-color: #f2f2f2;
+    color: #001a33;
+    text-align:left;
+    -webkit-box-shadow: 0 0 12px 0px #b3b3b3 inset;
+    -moz-box-shadow: 0 0 12px 0px #b3b3b3 inset;
+    box-shadow: 0 0 12px 0px #b3b3b3 inset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    border-top-right-radius: 6px;
+    padding-top:9px;
+    padding-left:8px;
+    height:50%;
+    width:100%;
+}
+.news{
+
+}
+.comment{
+        background-color: #0066ff;
+    color: #f2f2f2;
+    text-align:left;
+    font-family: "Arial", Gadget, sans-serif;
+    padding-left:10px;
+    padding-top:3px;
+    font-size:130%;
+    height:25%;
+    width:100%;
+    
+}
+.main-panel{
+    border-radius:6px;
+    height:100%;
+    width:85%;
+    float: right;
+    
+    display: inline-block;
+    background-color: white;
+    
+}
+.tv{
+    border: 10px solid black;
+    width:100%;
+    height:600px;
+    background-image: url("tv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box{
+    background-color: black;
+    margin:auto;
+}
+.box1{
+    width:20%;
+    height:30px;
+}
+.box2{
+    width:60%;
+    height:15px;
+    margin:20%;
+    margin-top: 0px;
+}
+
+
 .my-container{
     
     border:9px solid white;
@@ -66,11 +343,15 @@ figure{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 img{
+   max-height:100%; 
+ 
+ 
+}
+#father-photo{
     border-radius:5px;
     max-width:100%;
     margin:auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
 }
 .card{
     border: 10px solid transparent;
