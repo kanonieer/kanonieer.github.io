@@ -247,3 +247,8 @@ body{
 ul{
     text-align: left;
 }
+#signature{
+    float: right;
+    margin-top: 30;
+    margin-right: 40px;
+}
