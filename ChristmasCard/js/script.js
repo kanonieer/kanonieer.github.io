@@ -1,5 +1,14 @@
 var current = document.getElementById('coverMain');
 var currentNav = document.getElementById('cover');
+var audio = document.getElementById('background_audio');
+
+document.getElementById('player').addEventListener('click', function (e)
+{
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false);
+
 
 $(document).ready(function(){
     $('#cover').click(function(){
