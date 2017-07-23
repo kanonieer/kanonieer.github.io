@@ -1,0 +1,208 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-size:cover;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width:700px;
+    height:700px;
+    display: flex;
+    align-items: flex-start;
+-webkit-box-shadow: -22px 3px 81px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: -22px 3px 81px -23px rgba(0,0,0,0.75);
+box-shadow: -22px 3px 81px -23px rgba(0,0,0,0.75);
+}
+#player{
+    width:50px;
+    height:50px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color: #000;
+    opacity: 0.5;
+    border-radius: 30px 30px 30px 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in;
+}
+#player:hover{
+    opacity: 1;
+}
+#bell-icon{
+    font-size:20px;
+    color:white;
+}
+
+@media (min-width: 1068px) {
+  .card{
+    position: absolute;
+    background: transparent;
+    right:180px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .card{
+      margin: 0 auto;
+  }
+}
+.main{
+    width:580px;
+    height:100%;
+}
+.main > div{
+    width:100%;
+    height:100%; 
+    display: none;  
+    transition: display 0.5s ease; 
+
+}
+.nav{
+    width:120px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav > div{
+    width:100%;
+    height:20%;
+    transition: width 0.5s ease-in;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+-webkit-box-shadow: inset -32px 0px 57px -27px rgba(122,122,122,0.73);
+-moz-box-shadow: inset -32px 0px 57px -27px rgba(122,122,122,0.73);
+box-shadow: inset -32px 0px 57px -27px rgba(122,122,122,0.73);
+
+}
+#coverMain{
+    background-color: #003399;
+    border: 14px solid white;
+    -webkit-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#cover{
+    background-color: white;
+    width:110%;
+}
+#wishesMain{
+    background-color: #e60000;
+        border: 14px solid #009900;
+    -webkit-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 50px;
+    padding-right:50px;    
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Mirza', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Mirza', cursive;
+}
+#wishes{
+    background-color: #009900;
+    width:98%;
+    
+}
+#forAnnaMain{
+    background-color: #e6b800;
+        border: 14px solid #000;
+    -webkit-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-left: 50px;
+    padding-right:50px;   
+}
+#forAnna{
+    background-color: #000;
+    width:96%;
+}
+#forPiotrMain{
+    background-color: #588C7e;
+    
+        border: 14px solid #d96459 ;
+    -webkit-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2e394;
+    padding-left: 60px;
+    padding-right:60px;   
+}
+#forPiotr{
+    background-color: #D96459;
+    width:94%;
+}
+#forAgataMain{
+    background-color: #59323C; 
+     border: 14px solid #260126 ;
+    -webkit-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 130px -2px rgba(0,0,0,1);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2eeb3;
+    padding-left: 60px;
+    padding-right:60px;  
+}
+#forAgata{
+    background-color: #260126;
+    width: 92%;
+}
+.tree{
+    background-image: url('../images/tree1.png');
+    height: 600px;
+    width:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+#coverMain > h1{
+    margin-top:40px;
+    font-size: 60px;
+    font-family: 'Mountains of Christmas', cursive;
+    color:#ffc34d;
+    text-shadow: 2px 4px 60px rgba(0, 0, 0, 1);
+}
